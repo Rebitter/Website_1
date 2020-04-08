@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+
+.logo{
+	margin-left: 30px;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.topmenu{
+	position: relative;
+	width: 120px;
+}
+.submenu{
+	position: absolute;
+	display: none;
+	background-color: grey;
+}
+
+.submenu li{
+	margin-top: 10px;
+}
+
+.topmenu:hover .submenu {
+	display: block;
+}
+
+.head-buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.head-button{
+	margin: 10px;
+}
+
+.left-nav{
+	border: 2.5px solid red;
+	display: flex;
+	flex-direction: column;
+	width:  137.5px;
+	height: 250px;
+	margin-right: 30px;
+	margin-bottom: 1910px ;
+}
+
+form{
+	margin:0;
+}
+
+main{
+	display: flex;
+	height: 1920px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.items{
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+}
+
+
+.card{
+
+	height:360px;
+	width: 250px;
+	margin: 4px;
+}
+
+.card_image{
+	display: flex;
+	width: 250px;
+	height:320px;
+	flex-direction: row;
+}
+.card_price{
+	display: flex;
+	justify-content: center;
+	max-width: 250px;
+}
+.card_title{
+	display: flex;
+	justify-content: center;
+	max-width: 250px;
+}
