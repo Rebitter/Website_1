@@ -27,6 +27,7 @@ nav{
 .topmenu{
 	position: relative;
 	width: 120px;
+	padding: 20px;
 }
 .submenu{
 	position: absolute;
